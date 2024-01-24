@@ -19,3 +19,9 @@ Visualizations reveal key factors contributing to attrition risks, such as overw
 
 ## Models
 Various models, including logistic regression, random forest, KNN, Gaussian Naive Bayes, and Support Vector Machine, are employed. Models are assessed based on accuracy, precision, recall, F1-score, and ROC-AUC. The Random Forest Classifier performs best with 99.2% accuracy.
+
+## Model Evaluation
+Models are evaluated on all features, important features, and grid CV variations. Random Forest Classifier and K-nearest neighbor achieve over 94% accuracy. Gaussian Naive Bayes performs well, while logistic regression underperforms.
+
+## Limitations and Conclusion
+Acknowledging potential bias in the target variable, the study suggests using additional metrics like AUC ROC score, sensitivity, specificity, and f-1 score. The report concludes by emphasizing the importance of identifying attrition risks for strategic employee retention.
